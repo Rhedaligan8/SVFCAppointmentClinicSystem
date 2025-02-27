@@ -31,16 +31,16 @@
       </div> <!-- .container -->
     </div> <!-- .topbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: #7ff9f3;">
       <div class="container">
-        <a class="navbar-brand" href="home"><span class="text-primary">Clini</span>-QuickAid</a>
+        <a class="navbar-brand" href="home"><span class="text-primary"><span style="color:#f204f2;">Clini</span></span>-QuickAid</a>
 
         <form action="#">
           <div class="input-group input-navbar">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span>
+              <span class="input-group-text" id="icon-addon1"style="color:#f204f2;"><span class="mai-search"></span></span>
             </div>
-            <input type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" aria-describedby="icon-addon1">
+            <input type="text" class="form-control" placeholder="Search..." aria-label="Username" aria-describedby="icon-addon1">
           </div>
         </form>
 
@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="navbarSupport">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.html" >Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Us</a>
@@ -60,10 +60,11 @@
               <a class="nav-link" href="doctors.html">Doctors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html">News</a>
+              <a class="nav-link" href="blog.html">Announcements</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="{{ url('/svfc') }}">SVFC</a>
+
             </li>
             
             @if(Route::has('login'))
@@ -77,13 +78,13 @@
             
             
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-3" href="{{route('login')}}">Login</a>
+              <a class="btn btn-primary ml-lg-3" href="{{route('login')}}" style="background-color: #f204f2;">Login</a>
             </li>
 
             
             
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-3" href="{{route('register')}}">Register</a>
+              <a class="btn btn-primary ml-lg-3" href="{{route('register')}}" style="background-color: #f204f2;">Register</a>
             </li>
 
             @endauth
@@ -103,10 +104,10 @@
   <div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/bsit.jpg); fix">
     <div class="hero-section">
       <div class="container text-center wow zoomIn">
-        <span class="display-4 btn-headcolor ">CliniQuickAid</span><Br><br>
+        <span class="display-4 btn-headcolor" style="color:#f204f2;">CliniQuickAid</span><Br><br>
         <span class="subhead">your health</span>
-        <h1 class="display-4">Deserves Quick Care</h1>
-        <a href="#" class="btn btn-primary">Make Your Appointment Now!</a>
+        <h1 class="display-4" style="color: #00D9A5;">Deserves Quick Care</h1>
+        <a href="#" class="btn btn-primary" style="background-color:#f204f2;">Make Your Appointment Now!</a>
       </div>
     </div>
   </div>
@@ -144,17 +145,17 @@
       </div>
     </div> <!-- .page-section -->
 
-    <div class="page-section pb-0">
+    <div class="page-section pb-0" style="background-color: antiquewhite;">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 py-3 wow fadeInUp">
-            <h1>Welcome to the <br>Clini-QuickAid Appointment</h1>
-            <p class="text-grey mb-4 mt-5"> <b>This is not the legitimate paragpraph in deployment. This is only a fake prompts.</b>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ad mollitia dolore nostrum sit doloremque deserunt id ullam magnam, earum recusandae ea a similique eius laboriosam libero. Facere, quos corporis.</p>
-            <a href="about.html" class="btn btn-primary">Details...</a>
+            <h1 style="font-size: 40px; ">Welcome to the <br>Clini-QuickAid Appointment</h1>
+            <p class="text-grey mb-4 mt-5"> <b>Prioritize your health with ease! CliniQuickAid allows students in SVFC to conveniently schedule their school  </b> clinic visits for check-ups, consultations, and medical assistance, no more long wait times. Stay healthy and get the care you need, when you need it. Book your appointment now!`</p>
+            <a href="about.html" class="btn btn-primary" style="background-color:#f204f2 ;">Details...</a>
           </div>
           <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="img-place custom-img-1">
-              <img src="../assets/img/bg-doctor.png" alt="">
+              <img src="../assets/img/doctors/docluna.png" alt="">
             </div>
           </div>
         </div>
@@ -194,11 +195,11 @@
           </ul>
         </div>
         <div class="col-sm-6 col-lg-3 py-3">
-          <h5>Our partner</h5>
+          <h5>School Activities</h5>
           <ul class="footer-menu">
-            <li><a href="#">One-Fitness</a></li>
-            <li><a href="#">One-Drugs</a></li>
-            <li><a href="#">One-Live</a></li>
+            <li><a href="#">Fieldtrips</a></li>
+            <li><a href="#">Foundation Day</a></li>
+            <li><a href="#">Monthly Activities</a></li>
           </ul>
         </div>
         <div class="col-sm-6 col-lg-3 py-3">

@@ -4,8 +4,9 @@
             <x-authentication-card-logo />
         </x-slot>
 
-        <div class="mb-4 text-sm text-gray-600">
-            {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
+        <h1 class="flex justify-center items-center mb-4 text-2xl font-bold" style="color: red;">Forgot Password?</h1>
+        <div class="mb-4 text-sm text-gray-600 items-center">
+            {{ __('Input your email address that register in this system to receive the reset password for new one.') }}
         </div>
 
         @session('status')

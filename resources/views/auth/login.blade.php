@@ -1,3 +1,4 @@
+@extends('layouts.href')
 <x-guest-layout>
         <x-authentication-card>
         <x-slot name="logo">
@@ -11,19 +12,23 @@
                 {{ $value }}
             </div>
         @endsession
-        <h1>SVFC Clinic Appointment System</h1>
+        
+
+        <h1 class="flex justify-center items-center text-5xl mt-3 font-bold" style="color: #f204f2;" >&nbsp;&nbsp;&nbsp;&nbsp;CliniQuickAid &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login</h1>
+        <br>
+     
 
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
-            <div>
+            <div ">
                 <x-label for="email" value="{{ __('Email') }}" />
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
+                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" placeholder="Enter your email" />
             </div>
 
             <div class="mt-4">
                 <x-label for="password" value="{{ __('Password') }}" />
-                <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
+                <x-input id="password" class="block mt-1 w-full " type="password" name="password" required autocomplete="current-password" placeholder="Enter password" viewable="true"/>
             </div>
 
             <div class="block mt-4">

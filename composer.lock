@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ac8d3ea7ec6f67bb28ef89d5e698c5d",
+    "content-hash": "03599d32c665efcc4120a35fc56973dd",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2381,6 +2381,59 @@
                 }
             ],
             "time": "2025-02-26T00:57:32+00:00"
+        },
+        {
+            "name": "mkocansey/bladewind",
+            "version": "v2.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mkocansey/bladewind.git",
+                "reference": "b63f97cd345688122cec0d994dfcd14f36b16e96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mkocansey/bladewind/zipball/b63f97cd345688122cec0d994dfcd14f36b16e96",
+                "reference": "b63f97cd345688122cec0d994dfcd14f36b16e96",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Mkocansey\\Bladewind\\BladewindServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mkocansey\\Bladewind\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael K. Ocansey",
+                    "email": "mike@bladewindui.com"
+                }
+            ],
+            "description": "Laravel UI Components using TailwindCSS, Blade Templates and vanilla Javascript",
+            "keywords": [
+                "Ui Components",
+                "blade components",
+                "laravel",
+                "tailwindcss"
+            ],
+            "support": {
+                "issues": "https://github.com/mkocansey/bladewind/issues",
+                "source": "https://github.com/mkocansey/bladewind/tree/v2.9.0"
+            },
+            "time": "2025-01-15T05:40:31+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",

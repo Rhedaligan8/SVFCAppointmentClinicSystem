@@ -18,3 +18,6 @@ Route::middleware([
 
 Route::get('/add_doctor_view',[AdminController::Class,'addview']);
 
+Route::get('/svfc', function () {
+    return view('navbarcontents.svfc'); // Use dot notation
+});
