@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" href="../assets/css/theme.css">
 </head>
-<body>
+<body class="bg-light">
 
   <!-- Back to top button -->
   <div class="back-to-top"></div>
@@ -31,7 +31,7 @@
       </div> <!-- .container -->
     </div> <!-- .topbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: #7ff9f3;">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-light">
       <div class="container">
         <a class="navbar-brand" href="home"><span class="text-primary"><span style="color:#f204f2;">Clini</span></span>-QuickAid</a>
 

@@ -1,5 +1,5 @@
-<div class="page-section">
-    <div class="container" style="color: #f204f2;">
+<div class="page-section bg-light">
+    <div class="container " style="color: #f204f2;">
       <h1 class="text-center mb-5 wow fadeInUp" style="color:#006400; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 35px;">SVFC - Doctors & Practitioners</h1>
 
       <div class="owl-carousel wow fadeInUp" id="doctorSlideshow" style="color: #f204f2;">

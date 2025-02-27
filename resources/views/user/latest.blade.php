@@ -1,4 +1,4 @@
-<div class="page-section bg-light">
+<div class="page-section" style="background-color: antiquewhite;">
     <div class="container">
       <h1 class="text-center wow fadeInUp" style="font-size: 35px; color: #006400; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:">Announcements</h1>
       <div class="row mt-5">
@@ -76,7 +76,7 @@
         </div>
 
         <div class="col-12 text-center mt-4 wow zoomIn">
-          <a href="blog.html" class="btn btn-primary" style="background-color:#00D9A5;">More...</a>
+          <a href="blog.html" class="btn btn-primary" style="background-color:#f204f2;">More...</a>
         </div>
 
       </div>
