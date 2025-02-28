@@ -27,6 +27,7 @@ Route::get('/adminhome', function () {
     return view('admin.home');
 })->name('home');
 
+
 Route::middleware(['auth'])->group(function () {
     Route::post('/svfc', [AppointmentController::class,''])->name('appointments.store');
 });

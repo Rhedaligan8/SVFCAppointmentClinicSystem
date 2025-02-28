@@ -18,17 +18,17 @@
                     <div class="row">
                       <div class="col-9">
                         <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">$12.34</h3>
-                          <p class="text-success ms-2 mb-0 font-weight-medium">+3.5%</p>
+                          <h3 class="mb-0">Appointment</h3>
+                          <p class="text-success ms-2 mb-0 font-weight-medium">Approve/Reject</p>
                         </div>
                       </div>
                       <div class="col-3">
-                        <div class="icon icon-box-success ">
-                          <span class="mdi mdi-arrow-top-right icon-item"></span>
+                        <div class="icon ">
+                          
                         </div>
                       </div>
                     </div>
-                    <h6 class="text-muted font-weight-normal">Potential growth</h6>
+                    <h6 class="text-muted font-weight-normal">Schedule Time</h6>
                   </div>
                 </div>
               </div>
@@ -38,8 +38,8 @@
                     <div class="row">
                       <div class="col-9">
                         <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">$17.34</h3>
-                          <p class="text-success ms-2 mb-0 font-weight-medium">+11%</p>
+                          <h3 class="mb-0">Doctors</h3>
+                          <p class="text-danger ms-2 mb-0 font-weight-medium">No Data</p>
                         </div>
                       </div>
                       <div class="col-3">
@@ -48,7 +48,7 @@
                         </div>
                       </div>
                     </div>
-                    <h6 class="text-muted font-weight-normal">Revenue current</h6>
+                    <h6 class="text-muted font-weight-normal">Clinic Doctors</h6>
                   </div>
                 </div>
               </div>
@@ -58,8 +58,8 @@
                     <div class="row">
                       <div class="col-9">
                         <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">$12.34</h3>
-                          <p class="text-danger ms-2 mb-0 font-weight-medium">-2.4%</p>
+                          <h3 class="mb-0">Users</h3>
+                          <p class="text-danger ms-2 mb-0 font-weight-medium">No Data </p>
                         </div>
                       </div>
                       <div class="col-3">
@@ -68,7 +68,7 @@
                         </div>
                       </div>
                     </div>
-                    <h6 class="text-muted font-weight-normal">Daily Income</h6>
+                    <h6 class="text-muted font-weight-normal">Students/Admin</h6>
                   </div>
                 </div>
               </div>
@@ -78,8 +78,8 @@
                     <div class="row">
                       <div class="col-9">
                         <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">$31.53</h3>
-                          <p class="text-success ms-2 mb-0 font-weight-medium">+3.5%</p>
+                          <h3 class="mb-0">Medicine</h3>
+                          <p class="text-success ms-2 mb-0 font-weight-medium">++</p>
                         </div>
                       </div>
                       <div class="col-3">
@@ -88,7 +88,7 @@
                         </div>
                       </div>
                     </div>
-                    <h6 class="text-muted font-weight-normal">Expense current</h6>
+                    <h6 class="text-muted font-weight-normal">Available stocks</h6>
                   </div>
                 </div>
               </div>
@@ -97,24 +97,24 @@
               <div class="col-md-4 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Transaction History</h4>
+                    <h4 class="card-title">User's Overall</h4>
                     <canvas id="transaction-history" class="transaction-chart"></canvas>
                     <div class="bg-gray-dark d-flex d-md-block d-xl-flex flex-row py-3 px-4 px-md-3 px-xl-4 rounded mt-3">
                       <div class="text-md-center text-xl-left">
-                        <h6 class="mb-1">Transfer to Paypal</h6>
-                        <p class="text-muted mb-0">07 Jan 2019, 09:12AM</p>
+                        <h6 class="mb-1">In development</h6>
+                        <p class="text-muted mb-0">Time, In development</p>
                       </div>
                       <div class="align-self-center flex-grow text-right text-md-center text-xl-right py-md-2 py-xl-0">
-                        <h6 class="font-weight-bold mb-0">$236</h6>
+                        <h6 class="font-weight-bold mb-0"><!--Must be put how many user student and admin --></h6>
                       </div>
                     </div>
                     <div class="bg-gray-dark d-flex d-md-block d-xl-flex flex-row py-3 px-4 px-md-3 px-xl-4 rounded mt-3">
                       <div class="text-md-center text-xl-left">
-                        <h6 class="mb-1">Tranfer to Stripe</h6>
-                        <p class="text-muted mb-0">07 Jan 2019, 09:12AM</p>
+                        <h6 class="mb-1"><!--Tranfer to Stripe--></h6>
+                        <p class="text-muted mb-0">Time, In development</p>
                       </div>
                       <div class="align-self-center flex-grow text-right text-md-center text-xl-right py-md-2 py-xl-0">
-                        <h6 class="font-weight-bold mb-0">$593</h6>
+                        <h6 class="font-weight-bold mb-0"><!--In development --></h6>
                       </div>
                     </div>
                   </div>
@@ -139,11 +139,11 @@
                             <div class="preview-item-content d-sm-flex flex-grow">
                               <div class="flex-grow">
                                 <h6 class="preview-subject">SVFC Schedule Booking</h6>
-                                <p class="text-muted mb-0">Broadcast web app mockup</p>
+                                <p class="text-muted mb-0">Pending and Approved</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">
-                                <p class="text-muted">15 minutes ago</p>
-                                <p class="text-muted mb-0">30 tasks, 5 issues </p>
+                                <p class="text-muted">In development</p>
+                                <p class="text-muted mb-0">In development </p>
                               </div>
                             </div>
                           </div>
@@ -159,8 +159,8 @@
                                 <p class="text-muted mb-0">Upload new design</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">
-                                <p class="text-muted">1 hour ago</p>
-                                <p class="text-muted mb-0">23 tasks, 5 issues </p>
+                                <p class="text-muted">In development</p>
+                                <p class="text-muted mb-0">In development </p>
                               </div>
                             </div>
                           </div>
@@ -172,12 +172,12 @@
                             </div>
                             <div class="preview-item-content d-sm-flex flex-grow">
                               <div class="flex-grow">
-                                <h6 class="preview-subject">Updates in clinic</h6>
-                                <p class="text-muted mb-0">New project discussion</p>
+                                <h6 class="preview-subject">Facilities/clinic</h6>
+                                <p class="text-muted mb-0">In development</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">
-                                <p class="text-muted">35 minutes ago</p>
-                                <p class="text-muted mb-0">15 tasks, 2 issues</p>
+                                <p class="text-muted">In development</p>
+                                <p class="text-muted mb-0">In development</p>
                               </div>
                             </div>
                           </div>
@@ -193,8 +193,8 @@
                                 <p class="text-muted mb-0">Sent release details to faculties</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">
-                                <p class="text-muted">55 minutes ago</p>
-                                <p class="text-muted mb-0">35 tasks, 7 issues </p>
+                                <p class="text-muted">In development</p>
+                                <p class="text-muted mb-0">In development  </p>
                               </div>
                             </div>
                           </div>
@@ -207,11 +207,11 @@
                             <div class="preview-item-content d-sm-flex flex-grow">
                               <div class="flex-grow">
                                 <h6 class="preview-subject">Student Learning</h6>
-                                <p class="text-muted mb-0">New application planning</p>
+                                <p class="text-muted mb-0">Students Module</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">
-                                <p class="text-muted">50 minutes ago</p>
-                                <p class="text-muted mb-0">27 tasks, 4 issues </p>
+                                <p class="text-muted">In development</p>
+                                <p class="text-muted mb-0">In development</p>
                               </div>
                             </div>
                           </div>

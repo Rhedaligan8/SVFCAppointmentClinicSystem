@@ -21,6 +21,9 @@
 
   <link rel="stylesheet" href="../assets/css/theme.css">
 
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
 
   <link href="{{ asset('vendor/bladewind/css/animate.min.css') }}" rel="stylesheet" />
   <link href="{{ asset('vendor/bladewind/css/bladewind-ui.min.css') }}" rel="stylesheet" />
@@ -212,7 +215,7 @@
         </div>
         <div class="col-sm-6 col-lg-3 py-3">
           <h5>Project created by:</h5>
-          <a href="#" class="footer-link mt-2">Aligan, Rhed N. </a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
+          <a href="#" class="footer-link mt-2">Aligan, Rhed N. </a> &nbsp; <a href="https://www.facebook.com/fame.rhed" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
           <a href="#" class="footer-link" mt-2>Buenafe, Danilo Jr.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
           <a href="#" class="footer-link" mt-2>Coniaro, Joanna Mae M.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
           <a href="#" class="footer-link" mt-2>Coronel, Cristina A.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
@@ -248,7 +251,7 @@
   
 
 <!-- ✅ Place Modal at the End of File -->
-<x-bladewind.modal name="login-modal" title="Login Required"> 
+<x-bladewind.modal name="login-modal" title="Login Required" ok_button_action="false"> 
     <p class="text-gray-600">You must log in first before you can submit an appointment.</p>
     <div class="flex justify-end mt-4">
         <a href="{{ route('login') }}" class="px-4 py-2  text-white rounded-md mt-5" style="background-color: #00D9A5;">Login</a>
