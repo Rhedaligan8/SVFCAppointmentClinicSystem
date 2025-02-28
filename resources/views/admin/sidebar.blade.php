@@ -1,6 +1,9 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-          <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="../assets/img/person/svfctrans.png" alt="logo" /></a>
+        <a class="sidebar-brand brand-logo-mini" href="{{ route('home') }}">
+    <img src="{{ asset('assets/img/person/svfctrans.png') }}" alt="logo" style="width: 60px; height: auto;"  href="{{ route('home') }}"/>
+</a>
+
         </div>
         <ul class="nav">
           <li class="nav-item profile">

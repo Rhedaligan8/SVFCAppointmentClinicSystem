@@ -20,6 +20,14 @@
   <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
 
   <link rel="stylesheet" href="../assets/css/theme.css">
+
+
+  <link href="{{ asset('vendor/bladewind/css/animate.min.css') }}" rel="stylesheet" />
+  <link href="{{ asset('vendor/bladewind/css/bladewind-ui.min.css') }}" rel="stylesheet" />
+  <script src="{{ asset('vendor/bladewind/js/helpers.js') }}"></script>
+  <script src="//unpkg.com/alpinejs" defer></script>
+
+
 </head>
 <body class="bg-light">
 
@@ -204,12 +212,12 @@
         </div>
         <div class="col-sm-6 col-lg-3 py-3">
           <h5>Project created by:</h5>
-          <a href="#" class="footer-link mt-2">Aligan, Rhed N. </a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a>
-          <a href="#" class="footer-link" mt-2>Buenafe, Danilo Jr.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a>
-          <a href="#" class="footer-link" mt-2>Coniaro, Joanna Mae M.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a>
-          <a href="#" class="footer-link" mt-2>Coronel, Cristina A.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a>
-          <a href="#" class="footer-link" mt-2>Lumba, Bryan Justine.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a>
-          <a href="#" class="footer-link" mt-2>Paz, Emmanuel Ray</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a>
+          <a href="#" class="footer-link mt-2">Aligan, Rhed N. </a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
+          <a href="#" class="footer-link" mt-2>Buenafe, Danilo Jr.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
+          <a href="#" class="footer-link" mt-2>Coniaro, Joanna Mae M.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
+          <a href="#" class="footer-link" mt-2>Coronel, Cristina A.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
+          <a href="#" class="footer-link" mt-2>Lumba, Bryan Justine.</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
+          <a href="#" class="footer-link" mt-2>Paz, Emmanuel Ray</a> &nbsp; <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a><br>
 
           <!-- <div class="footer-sosmed mt-3">
             <h5 class="mt-3">Social Media</h5>
