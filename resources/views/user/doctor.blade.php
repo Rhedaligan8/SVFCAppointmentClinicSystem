@@ -51,30 +51,30 @@
         <div class="item">
           <div class="card-doctor">
             <div class="header">
-              <img src="../assets/img/doctors/doctor_3.jpg" alt="">
+            <img src="../assets/img/doctors/docjairao.png" alt="">
               <div class="meta">
                 <a href="#"><span class="mai-call"></span></a>
                 <a href="#"><span class="mai-logo-whatsapp"></span></a>
               </div>
             </div>
             <div class="body">
-              <p class="text-xl mb-0">for testing</p>
-              <span class="text-sm text-grey">prompt for now </span>
+              <p class="text-xl mb-0">Jaira Marelle Ocampo</p>
+              <span class="text-sm text-grey">RMT. MD </span>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="card-doctor">
             <div class="header">
-              <img src="../assets/img/doctors/doctor_3.jpg" alt="">
+              <img src="../assets/img/doctors/docvicky.png" alt="">
               <div class="meta">
                 <a href="#"><span class="mai-call"></span></a>
                 <a href="#"><span class="mai-logo-whatsapp"></span></a>
               </div>
             </div>
             <div class="body">
-              <p class="text-xl mb-0">for testing</p>
-              <span class="text-sm text-grey">prompt for now</span>
+              <p class="text-xl mb-0">Vicky Belo</p>
+              <span class="text-sm text-grey">M.D, Dermatologist</span>
             </div>
           </div>
         </div>

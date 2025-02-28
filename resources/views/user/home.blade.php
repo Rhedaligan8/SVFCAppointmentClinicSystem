@@ -33,8 +33,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-light">
       <div class="container">
+      <img src="../assets/img/person/svfctrans.png" alt="logo " style="width:auto; height: 60px;"/>
         <a class="navbar-brand" href="home"><span class="text-primary"><span style="color:#f204f2;">Clini</span></span>-QuickAid</a>
-
         <form action="#">
           <div class="input-group input-navbar">
             <div class="input-group-prepend">
@@ -51,16 +51,16 @@
         <div class="collapse navbar-collapse" id="navbarSupport">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html" >Home</a>
+              <a class="nav-link" href="{{ url ('#') }}" >Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link" href="{{ url ('#') }}">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="doctors.html">Doctors</a>
+              <a class="nav-link" href="{{ url('#') }}">Doctors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html">Announcements</a>
+              <a class="nav-link" href="{{ url('#') }}">Announcements</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="{{ url('/svfc') }}">SVFC</a>
