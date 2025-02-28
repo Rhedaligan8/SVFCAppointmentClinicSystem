@@ -155,7 +155,7 @@
 
     <div class="page-section pb-0" style="background-color: antiquewhite;">
       <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center items-center" style="margin-left: 50px;">
           <div class="col-lg-6 py-3 wow fadeInUp">
             <h1 style="font-size: 40px; ">Welcome to the <br>Clini-QuickAid Appointment</h1>
             <p class="text-grey mb-4 mt-5"> <b>Prioritize your health with ease! CliniQuickAid allows students in SVFC to conveniently schedule their school  </b> clinic visits for check-ups, consultations, and medical assistance, no more long wait times. Stay healthy and get the care you need, when you need it. Book your appointment now!`</p>
@@ -246,5 +246,13 @@
 
 <script src="../assets/js/theme.js"></script>
   
+
+<!-- ✅ Place Modal at the End of File -->
+<x-bladewind.modal name="login-modal" title="Login Required"> 
+    <p class="text-gray-600">You must log in first before you can submit an appointment.</p>
+    <div class="flex justify-end mt-4">
+        <a href="{{ route('login') }}" class="px-4 py-2  text-white rounded-md mt-5" style="background-color: #00D9A5;">Login</a>
+    </div>
+</x-bladewind.modal>
 </body>
 </html>

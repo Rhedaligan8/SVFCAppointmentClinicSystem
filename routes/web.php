@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AppointmentController;
 
 Route::get('/',[HomeController::Class,'index']);
 
@@ -25,3 +26,7 @@ Route::get('/svfc', function () {
 Route::get('/adminhome', function () {
     return view('admin.home');
 })->name('home');
+
+Route::middleware(['auth'])->group(function () {
+    Route::post('/svfc', [AppointmentController::class,''])->name('appointments.store');
+});

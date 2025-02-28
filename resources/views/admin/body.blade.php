@@ -138,7 +138,7 @@
                             </div>
                             <div class="preview-item-content d-sm-flex flex-grow">
                               <div class="flex-grow">
-                                <h6 class="preview-subject">Admin dashboard design</h6>
+                                <h6 class="preview-subject">SVFC Schedule Booking</h6>
                                 <p class="text-muted mb-0">Broadcast web app mockup</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">
@@ -155,7 +155,7 @@
                             </div>
                             <div class="preview-item-content d-sm-flex flex-grow">
                               <div class="flex-grow">
-                                <h6 class="preview-subject">Wordpress Development</h6>
+                                <h6 class="preview-subject">SVFC Clinic</h6>
                                 <p class="text-muted mb-0">Upload new design</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">
@@ -172,7 +172,7 @@
                             </div>
                             <div class="preview-item-content d-sm-flex flex-grow">
                               <div class="flex-grow">
-                                <h6 class="preview-subject">Project meeting</h6>
+                                <h6 class="preview-subject">Updates in clinic</h6>
                                 <p class="text-muted mb-0">New project discussion</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">
@@ -189,8 +189,8 @@
                             </div>
                             <div class="preview-item-content d-sm-flex flex-grow">
                               <div class="flex-grow">
-                                <h6 class="preview-subject">Broadcast Mail</h6>
-                                <p class="text-muted mb-0">Sent release details to team</p>
+                                <h6 class="preview-subject">StudentsNotifications</h6>
+                                <p class="text-muted mb-0">Sent release details to faculties</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">
                                 <p class="text-muted">55 minutes ago</p>
@@ -206,7 +206,7 @@
                             </div>
                             <div class="preview-item-content d-sm-flex flex-grow">
                               <div class="flex-grow">
-                                <h6 class="preview-subject">UI Design</h6>
+                                <h6 class="preview-subject">Student Learning</h6>
                                 <p class="text-muted mb-0">New application planning</p>
                               </div>
                               <div class="me-auto text-sm-right pt-2 pt-sm-0">

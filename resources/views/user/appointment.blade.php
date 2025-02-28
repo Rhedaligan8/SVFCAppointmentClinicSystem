@@ -30,8 +30,17 @@
             <textarea name="message" id="message" class="form-control" rows="6" placeholder="Enter message.."></textarea>
           </div>
         </div>
+        @if (auth()->check()) 
+    <button type="submit" class="btn btn-primary mt-3 wow zoomIn">
+        Submit Request
+    </button>
+@else
+    <button type="button" onclick="showModal('login-modal')" class="px-4 py-2 text-white rounded-md flex items-center gap-2" style="background-color: green;">
+        <i class="fa-solid fa-triangle-exclamation text-yellow-400"></i> <!-- Warning Icon -->
+        Submit Appointment
+    </button>
+@endif
 
-        <button type="submit" class="btn btn-primary mt-3 wow zoomIn">Submit Request</button>
       </form>
     </div>
  
