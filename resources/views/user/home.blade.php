@@ -122,9 +122,9 @@
 
 
   <div class="bg-light">
-    <div class="page-section py-3 mt-md-n5 custom-index">
+    <div class="page-section py-3 mt-md-n5 custom-index items-center ml-5">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center ">
           <div class="col-md-4 py-3 py-md-0">
             <div class="card-service wow fadeInUp">
               <div class="circle-shape bg-secondary text-white">

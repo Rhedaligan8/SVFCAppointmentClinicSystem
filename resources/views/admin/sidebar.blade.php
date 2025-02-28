@@ -1,7 +1,8 @@
-<nav class="sidebar sidebar-offcanvas" id="sidebar">
-        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-        <a class="sidebar-brand brand-logo-mini" href="{{ route('home') }}">
-    <img src="{{ asset('assets/img/person/svfctrans.png') }}" alt="logo" style="width: 60px; height: auto;"  href="{{ route('home') }}"/>
+
+<nav class="sidebar sidebar-offcanvas" id="sidebar" style="background-color: #AD1457  ;">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top" style="background-color: gray;">
+        <a class="sidebar-brand " href="{{ route('home') }}" style="margin-right: 15px;">
+    <img src="{{ asset('assets/img/person/svfctrans.png') }}" alt="logo" style="width: 80px; height: auto;"  href="{{ route('home') }}"/>
 </a>
 
         </div>
